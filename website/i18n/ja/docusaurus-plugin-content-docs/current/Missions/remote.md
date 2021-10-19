@@ -37,6 +37,47 @@ sidebar_position: 2
   - 検証方法
     - 映像 または 目視により確認する
 
-## 正解例
-- GITHUB SUMPLE CODE
+## 実装例
+- m5fファイルは[こちら](https://raw.githubusercontent.com/Yukuro/easyCansat/main/website/static/files/missions/Remote_Cotrol.m5f)
+
+```python
+from m5stack import *
+from m5ui import *
+from uiflow import *
+import module
+
+import time
+remoteInit()
+setScreenColor(0x222222)
+
+servo2 = module.get(module.SERVO2)
+
+def _remote_前進():
+  rgb.setColorAll(0xff0000)
+  servo2.position(0, 120)
+  servo2.position(1, 80)
+
+def _remote_後退():
+  rgb.setColorAll(0x000099)
+  servo2.position(0, 80)
+  servo2.position(1, 120)
+
+def _remote_停止():
+  rgb.setColorAll(0xffffff)
+  servo2.position(0, 100)
+  servo2.position(1, 100)
+
+
+servo2.position(0, 100)
+wait_ms(100)
+servo2.position(1, 100)
+wait_ms(100)
+lcd.qrcode('http://flow-remote.m5stack.com/?remote=undefined', 72, 32, 176)
+
+# Describe this function...
+
+# Describe this function...
+
+# Describe this function...
+```
 

@@ -14,6 +14,6 @@ youtube上に組み立てガイドがあります
   - [M5Stack Fire](https://docs.m5stack.com/en/core/fire)
   - [Module SERVO2](https://docs.m5stack.com/en/module/servo2)
 - 動画中の「サーボモーター」は以下を想定しています
-  - [S35 STD](https://ja.aliexpress.com/wholesale?SearchText=s35+std)
+  - [S35 STD](https://akizukidenshi.com/catalog/g/gM-08305/)
 
 将来のアップデートにおいて使用できるM5Stackやサーボモーターの拡充を目指しています
