@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'easyCansat',
   tagline: 'easyCansat is CanSat for beginners',
-  url: 'https://cansatt.unknownsky.net',
+  url: 'https://cansat.unknownsky.net/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
