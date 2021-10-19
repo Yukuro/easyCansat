@@ -9,4 +9,4 @@ easyCansat is CanSat kit for **beginners**
 - Examples of **mission** formats are available
 
 ## Special Thanks
-Special Thanks to @core-rocket for their help in terms of ideas.
+Special Thanks to [@core-rocket](https://github.com/core-rocket) for their help in terms of ideas.
