@@ -1363,7 +1363,7 @@
   dependencies:
     "@docusaurus/core" "2.0.0-beta.7"
 
-"@docusaurus/plugin-google-gtag@2.0.0-beta.7":
+"@docusaurus/plugin-google-gtag@2.0.0-beta.7", "@docusaurus/plugin-google-gtag@^2.0.0-beta.7":
   version "2.0.0-beta.7"
   resolved "https://registry.yarnpkg.com/@docusaurus/plugin-google-gtag/-/plugin-google-gtag-2.0.0-beta.7.tgz#d8f4be826dbc7b53aaba27c65be86b32ba8bb7b9"
   integrity sha512-52nm+VlFk4sGX6R9H3PMv5VVIZSEpzMhnAWTrcLNJyCj7TmX45Rr44+nkFdC1S5xg1Jy6u6farpD9VUK69oQfA==

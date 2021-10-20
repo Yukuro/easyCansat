@@ -74,7 +74,16 @@ const config = {
       },
       footer: {
         style: 'dark',
-        // links: [
+        links: [
+          {
+            title: 'Privacy',
+            items: [
+              {
+                label: 'privacy poricy',
+                to: '/privacy-policy',
+              }
+            ]
+          }
         //   {
         //     title: 'Docs',
         //     items: [
@@ -114,13 +123,17 @@ const config = {
         //       },
         //     ],
         //   },
-        // ],
+        ],
         copyright: `Copyright © ${new Date().getFullYear()} easyCansat, Authors.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      gtag: {
+        trackingID: 'G-30ENG1MPLG',
+        anonymizeIP: true,
+      }
     }),
 };
 
